@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BNObjectDynamic : NSObject
 
+@property (strong, nonatomic) NSObject *testObject;
+
 @end
 
 NS_ASSUME_NONNULL_END

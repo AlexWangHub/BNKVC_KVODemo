@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BNObject : NSObject
 
+@property (nonatomic, strong, readonly) NSObject *testObjc;
+
 @end
 
 NS_ASSUME_NONNULL_END

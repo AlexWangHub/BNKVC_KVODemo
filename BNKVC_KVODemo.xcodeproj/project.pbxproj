@@ -16,6 +16,8 @@
 		B8D2A87826B6881700A537FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D2A87726B6881700A537FC /* main.m */; };
 		B8D2A88226B6881700A537FC /* BNKVC_KVODemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D2A88126B6881700A537FC /* BNKVC_KVODemoTests.m */; };
 		B8D2A88D26B6881700A537FC /* BNKVC_KVODemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D2A88C26B6881700A537FC /* BNKVC_KVODemoUITests.m */; };
+		B8D2A89C26B6882200A537FC /* BNObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D2A89B26B6882200A537FC /* BNObject.m */; };
+		B8D2A89F26B69BB600A537FC /* BNObjectDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D2A89E26B69BB600A537FC /* BNObjectDynamic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		B8D2A88826B6881700A537FC /* BNKVC_KVODemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNKVC_KVODemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D2A88C26B6881700A537FC /* BNKVC_KVODemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNKVC_KVODemoUITests.m; sourceTree = "<group>"; };
 		B8D2A88E26B6881700A537FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D2A89A26B6882200A537FC /* BNObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNObject.h; sourceTree = "<group>"; };
+		B8D2A89B26B6882200A537FC /* BNObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNObject.m; sourceTree = "<group>"; };
+		B8D2A89D26B69BB600A537FC /* BNObjectDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNObjectDynamic.h; sourceTree = "<group>"; };
+		B8D2A89E26B69BB600A537FC /* BNObjectDynamic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNObjectDynamic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 		B8D2A86426B6881600A537FC /* BNKVC_KVODemo */ = {
 			isa = PBXGroup;
 			children = (
+				B8D2A89A26B6882200A537FC /* BNObject.h */,
+				B8D2A89B26B6882200A537FC /* BNObject.m */,
 				B8D2A86526B6881600A537FC /* AppDelegate.h */,
 				B8D2A86626B6881600A537FC /* AppDelegate.m */,
 				B8D2A86826B6881600A537FC /* SceneDelegate.h */,
@@ -115,6 +123,8 @@
 				B8D2A87326B6881700A537FC /* LaunchScreen.storyboard */,
 				B8D2A87626B6881700A537FC /* Info.plist */,
 				B8D2A87726B6881700A537FC /* main.m */,
+				B8D2A89D26B69BB600A537FC /* BNObjectDynamic.h */,
+				B8D2A89E26B69BB600A537FC /* BNObjectDynamic.m */,
 			);
 			path = BNKVC_KVODemo;
 			sourceTree = "<group>";
@@ -266,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D2A89C26B6882200A537FC /* BNObject.m in Sources */,
 				B8D2A86D26B6881600A537FC /* ViewController.m in Sources */,
 				B8D2A86726B6881600A537FC /* AppDelegate.m in Sources */,
 				B8D2A87826B6881700A537FC /* main.m in Sources */,
+				B8D2A89F26B69BB600A537FC /* BNObjectDynamic.m in Sources */,
 				B8D2A86A26B6881600A537FC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
